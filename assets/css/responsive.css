@@ -1,0 +1,72 @@
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .sports_container{
+    max-width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .menu_container{
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1799.98px) {}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+        
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+   
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footer_box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .help_type_list li {
+        flex: 0 0 50%;
+        max-width: 50%;   
+        margin-bottom: 32px; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    
+}
+
+@media (max-width: 360.98px) {
+    
+}
+
+@media (max-width: 991.98px) {
+    .banner_headng {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .banner_content {
+        color: #fff;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .banner_section {
+        padding: 120px 0px;
+    }
+    .registration_list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .registration_box_card {
+        height: 100%;
+    }
+    .registration_list li+ li{
+        margin-top: 30px;
+    }
+}
