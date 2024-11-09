@@ -151,4 +151,7 @@
         font-size: 18px;
         line-height: 28px;
     }
+    .header_navbar {
+        padding: 12px 0px;
+    }
 }
