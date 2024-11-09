@@ -33,12 +33,26 @@
         max-width: 50%;   
         margin-bottom: 32px; 
     }
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
 @media (max-width: 575.98px) {
-    
+    .work_list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .work_box_img {
+        width: 100%;
+        height: auto;
+    }
+    .contact_box {
+        flex-direction: column;
+    }
+    .contact_box_right {
+        width: 100%;
+    }
 }
 
 @media (max-width: 360.98px) {
@@ -46,6 +60,16 @@
 }
 
 @media (max-width: 991.98px) {
+    
+    .back_section_box p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .testimonial_box h5 {
+        font-size: 32px;
+        line-height: 42px;
+    }
     .banner_headng {
         font-size: 32px;
         line-height: 42px;
@@ -65,8 +89,66 @@
     }
     .registration_box_card {
         height: 100%;
+        padding-bottom: 16px;
     }
     .registration_list li+ li{
         margin-top: 30px;
+    }
+    .header_navbar .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 0px;
+    }
+    .back_section {
+        padding: 80px 0px;
+    }
+    .back_section_box h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .about_content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .about_content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .registration_heading {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 30px;
+    }
+    .back_btn {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 30px;
+    }
+    .work_list_box h4 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .work_list_media_body h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .join_now_btn {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 36px;
+    }
+    .contact_box_left h6 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .contact_box_left p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+    .info_label {
+        color: #000;
+        font-size: 18px;
+        line-height: 28px;
     }
 }
