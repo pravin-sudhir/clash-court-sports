@@ -87,6 +87,10 @@ button:focus {
     background-color: #553D1D;
     padding: 0px;
 }
+.body_main{
+	max-width: 1440px;
+	margin: auto;
+}
 .header_navbar{
 	padding: 0px;
 	background-color: #553D1D;
@@ -535,4 +539,66 @@ button:focus {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+.login_section{
+	padding-top: 80px;
+	padding-bottom: 160px;
+}
+.label_from{
+	font-family: "Quattrocento", sans-serif;
+	font-size: 24px;
+	line-height: 34px;
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.label_from span{
+	color: #FF0606;
+}
+.mb_30{
+	margin-bottom: 30px;
+}
+.lost_link{
+	color: #5992FF;
+	font-family: "Quattrocento", sans-serif;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: bold;
+	margin-bottom: 80px;
+	display: block;
+}
+.remember_check .form-check-input {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	margin-right: 12px;
+	border-radius: 4px;
+	margin-top: 0;
+}
+
+.remember_check .form-check-label {
+	font-size: 24px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Quattrocento", sans-serif;
+}
+
+.remember_check .form-check-label span {
+	display: block;
+	margin-bottom: 2px;
+	font-weight: 500;
+	color: #333333;
+}
+
+.remember_check .form-check-input:checked {
+	background-color: #333333;
+	border: 1px solid #333333;
+}
+
+.remember_check .form-check-input:focus {
+	box-shadow: none;
+	outline: none;
+}
+.remember_check{
+	margin-bottom: 40px;
 }
