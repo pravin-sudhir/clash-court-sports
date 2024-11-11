@@ -564,7 +564,7 @@ button:focus {
 	font-size: 24px;
 	line-height: 34px;
 	font-weight: bold;
-	margin-bottom: 80px;
+	margin-bottom: 64px;
 	display: block;
 }
 .remember_check .form-check-input {
@@ -601,4 +601,36 @@ button:focus {
 }
 .remember_check{
 	margin-bottom: 40px;
+}
+.radio_check{
+	margin-bottom: 0;
+}
+.radio_check .form-check-input{
+	border-radius: 50%;
+}
+.radio_check+ .radio_check{
+	margin-top: 30px;
+}
+.join_now_list{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.join_now_list li{
+	flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-bottom: 0px;
+}
+.join_now_list .width_full{
+	flex: 0 0 100%;
+    max-width: 100%;
 }
