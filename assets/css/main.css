@@ -634,3 +634,9 @@ button:focus {
 	flex: 0 0 100%;
     max-width: 100%;
 }
+.hidden{
+	visibility: hidden;
+}
+.join_now_bannner{
+	padding: 345px 0px;
+}

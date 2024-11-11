@@ -154,4 +154,15 @@
     .header_navbar {
         padding: 12px 0px;
     }
+    .join_now_list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .hidden{
+        visibility: hidden;
+        display: none;
+    }
+    .join_now_bannner{
+        padding: 120px 0px;
+    }
 }
