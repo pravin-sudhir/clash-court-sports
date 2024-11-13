@@ -87,10 +87,10 @@ button:focus {
     background-color: #553D1D;
     padding: 0px;
 }
-.body_main{
+/* .body_main{
 	max-width: 1440px;
 	margin: auto;
-}
+} */
 .header_navbar{
 	padding: 0px;
 	background-color: #553D1D;
@@ -134,12 +134,21 @@ button:focus {
 
 .banner_section {
 	width: 100%;
-	background-image: url(../images/banner-bg.svg);
+	background-image: url(../images/003.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	padding: 272px 0px;
+	padding: 410px 0px;
+}
+.join_now_bannner {
+	width: 100%;
+	background-image: url(../images/001.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 341px 0px;
 }
 
 .banner_headng{
@@ -282,12 +291,13 @@ button:focus {
 }
 .back_section{
 	width: 100%;
-	background-image: url(../images/back_bg.svg);
+	background-image: url(../images/002.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	padding: 160px 0px;
+	padding: 252px 0px;
+	height: 821px;
 }
 .back_section_box h3{
 	font-size: 48px;
@@ -325,7 +335,7 @@ button:focus {
     outline: none;
 }
 .work_section{
-	padding: 180px 0px;
+	padding: 120px 0px;
 }
 .work_list{
 	display: -ms-flexbox;
@@ -637,6 +647,54 @@ button:focus {
 .hidden{
 	visibility: hidden;
 }
-.join_now_bannner{
-	padding: 345px 0px;
+.faq_section{
+	padding: 80px 0;
+}
+.faq_heading{
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 30px;
+}
+.accordion_button{
+	border-radius: 8px;
+	background-color: #fff;
+	border: 0px solid #B6B6B6;
+	box-shadow: none;
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 20px;
+	font-family: "Oswald", sans-serif;
+}
+.accordion_button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+.accordion_button:focus{
+	box-shadow: none;
+	border-color: #B6B6B6;
+}
+.accordion_item{
+	border-radius: 8px;
+	border: 1px solid #B6B6B6;
+}
+.accordion_item+ .accordion_item{
+	margin-top: 15px;
+}
+.accordion_body{
+	padding: 20px;
+}
+.accordion_body p{
+	font-size: 24px;
+	line-height: 32px;
+	color: #000;
+	font-family: "Quattrocento", sans-serif;
+	margin-bottom: 0;
+}
+.accordion_body p+ p{
+	margin-top: 15px;
 }
