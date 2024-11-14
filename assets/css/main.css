@@ -930,3 +930,47 @@ button:focus {
 	background-color: #B95B00;
 	color: #fff;
 }
+.member_section{
+	padding: 80px 0px 120px;
+}
+.member_page_heading{
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 15px;
+}
+.member_sub_heading{
+	font-family: "Quattrocento", sans-serif;
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 60px;
+}
+.leagues_box{
+	margin-bottom: 60px;
+}
+.league_heading_box{
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #2B353E;
+	padding: 16px;
+	width: 100%;
+}
+.league_heading_box+ .league_heading_box{
+	margin-top: 10px;
+}
+.tenis_table{
+
+}
+.tenis_table thead tr th{
+
+}
+.tenis_table tbody tr td{
+	
+}
