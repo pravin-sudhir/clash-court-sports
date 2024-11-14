@@ -53,6 +53,49 @@
     .contact_box_right {
         width: 100%;
     }
+    .event_headng {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .event_sub_heading {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .price_list_btn {
+        font-size: 24px;
+        line-height: 34px;
+        padding: 16px;
+    }
+    .donation_box_card_header .nav-item{
+        width: 100%;
+    }
+    .donation_box_card_header .nav-item .nav-link {
+        font-size: 24px;
+        line-height: 34px;
+        padding: 20px 40px;
+        width: 100%;
+    }
+    .donation_monthly_btn {
+        font-size: 24px;
+        line-height: 34px;
+        padding: 20px 40px;
+        margin-bottom: 30px;
+    }
+    .donation_box h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .donation_section {
+        padding: 60px 0px;
+    }
+    .minutes_text {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .minutes_text span {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
 
 @media (max-width: 360.98px) {
@@ -64,7 +107,7 @@
     .back_section_box p {
         font-size: 18px;
         line-height: 28px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .testimonial_box h5 {
         font-size: 32px;
@@ -78,10 +121,10 @@
         color: #fff;
         font-size: 18px;
         line-height: 28px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     .banner_section {
-        padding: 120px 0px;
+        padding: 60px 0px;
     }
     .registration_list li {
         flex: 0 0 100%;
@@ -100,7 +143,8 @@
         padding: 15px 0px;
     }
     .back_section {
-        padding: 80px 0px;
+        padding: 60px 0px;
+        height: 100%;
     }
     .back_section_box h3 {
         font-size: 32px;
@@ -163,6 +207,7 @@
         display: none;
     }
     .join_now_bannner{
-        padding: 120px 0px;
+        padding: 60px 0px;
+        height: 100%;
     }
 }
