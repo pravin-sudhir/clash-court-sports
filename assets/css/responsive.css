@@ -103,7 +103,41 @@
 }
 
 @media (max-width: 991.98px) {
-    
+    .work_section {
+        padding: 80px 0px;
+    }
+    .registration_section {
+        padding: 80px 0px 120px 0px;
+    }
+    .about_section {
+        padding-bottom: 0;
+    }
+    .accordion_button {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .login_banner_section {
+        padding: 108px 0px;
+        margin-top: -22px;
+    }
+    .no_data_box {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .no_data_text {
+        font-size: 24px;
+        line-height: 34px;
+        margin-right: 0;
+    }
+    .member_page_heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .league_heading_box {
+        font-size: 24px;
+        line-height: 34px;
+    }
     .back_section_box p {
         font-size: 18px;
         line-height: 28px;
