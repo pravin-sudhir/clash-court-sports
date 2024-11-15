@@ -116,10 +116,10 @@
         font-size: 24px;
         line-height: 34px;
     }
-    .login_banner_section {
+    /* .login_banner_section {
         padding: 108px 0px;
         margin-top: -22px;
-    }
+    } */
     .no_data_box {
         align-items: flex-start;
         justify-content: flex-start;

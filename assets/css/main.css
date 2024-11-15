@@ -299,7 +299,7 @@ button:focus {
     padding: 159px 0px;
     height: 636px;
 }
-.login_banner_section {
+/* .login_banner_section {
     width: 100%;
     background-image: url(../images/login-banner.svg);
     background-position: center;
@@ -308,7 +308,7 @@ button:focus {
     position: relative;
     padding: 540px 0px;
     margin-top: -107px;
-}
+} */
 .back_section_box h3{
 	font-size: 48px;
 	line-height: 58px;
@@ -1041,4 +1041,12 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+.login_banner_section{
+	width: 100%;
+	height: auto;
+}
+.login_banner_section img{
+	width: 100%;
+	height: auto;
 }
