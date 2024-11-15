@@ -134,7 +134,7 @@ button:focus {
 
 .banner_section {
 	width: 100%;
-	background-image: url(../images/003.png);
+	background-image: url(../images/hero-banner.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -280,24 +280,34 @@ button:focus {
 }
 
 .bg_two{	
-	background-image: url(../images/registration_lmage-3.svg);
+	background-image: url(../images/doubles-banner.png);
 }
 
 .bg_three{
-	background-image: url(../images/registration_lmage-2.svg);
+	background-image: url(../images/rules-image.png);
 }
 .back_section_box{
 	text-align: center;
 }
 .back_section{
 	width: 100%;
-	background-image: url(../images/002.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	padding: 252px 0px;
-	height: 821px;
+    background-image: url(../images/donation-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 159px 0px;
+    height: 636px;
+}
+.login_banner_section {
+    width: 100%;
+    background-image: url(../images/login-banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 540px 0px;
+    margin-top: -107px;
 }
 .back_section_box h3{
 	font-size: 48px;
