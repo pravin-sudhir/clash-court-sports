@@ -601,6 +601,7 @@ button:focus {
 	line-height: 34px;
 	color: #000000;
 	font-family: "Quattrocento", sans-serif;
+	position: relative;
 }
 
 .remember_check .form-check-label span {
@@ -622,15 +623,7 @@ button:focus {
 .remember_check{
 	margin-bottom: 40px;
 }
-.radio_check{
-	margin-bottom: 0;
-}
-.radio_check .form-check-input{
-	border-radius: 50%;
-}
-.radio_check+ .radio_check{
-	margin-top: 30px;
-}
+
 .join_now_list{
     display: -ms-flexbox;
     display: flex;
@@ -1079,4 +1072,75 @@ button:focus {
 }
 .event_box_card+ .event_box_card{
 	margin-top: 16px;
+}
+.join_now_radio{
+	margin-bottom: 30px;
+}
+
+.join_now_radio .form-check-input {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	margin-right: 12px;
+	border-radius: 50%;
+	margin-top: 0;
+}
+
+.join_now_radio .form-check-label {
+	font-size: 24px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Quattrocento", sans-serif;
+	position: relative;
+}
+
+.join_now_radio .form-check-input:checked {
+	background-color: #333333;
+	border: 1px solid #333333;
+	box-shadow: none;
+}
+
+.join_now_radio .form-check-label {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	color: #333333;
+	margin-left: 2px;
+}
+
+.join_now_radio .form-check-label .tooltip_text {
+	visibility: hidden;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	font-weight: 400;
+    font-family: "Quattrocento", sans-serif;
+	text-align: left;
+	width: 280px;
+	background-color: #333333;
+	border-radius: 5px;
+	padding: 12px;
+	position: absolute;
+	z-index: 30;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -100px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.join_now_radio .form-check-label .tooltip_text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #333333 transparent transparent transparent;
+}
+
+.join_now_radio .form-check-label:hover .tooltip_text {
+	visibility: visible;
+	opacity: 1;
 }
